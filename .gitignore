@@ -1,0 +1,113 @@
+# ==========================================
+# OS / Editor
+# ==========================================
+
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==========================================
+# Environment / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.crt
+
+# ==========================================
+# Android / Gradle
+# ==========================================
+
+mobile/.gradle/
+mobile/build/
+mobile/app/build/
+mobile/.idea/
+mobile/local.properties
+mobile/.externalNativeBuild/
+mobile/.cxx/
+
+# Android generated files
+*.apk
+*.aab
+*.apks
+
+# ==========================================
+# Go
+# ==========================================
+
+**/bin/
+**/dist/
+**/*.exe
+**/*.test
+**/*.out
+
+# Go workspace / IDE
+go.work.sum
+
+# ==========================================
+# Python / Planner
+# ==========================================
+
+planner/.venv/
+planner/venv/
+planner/__pycache__/
+planner/**/__pycache__/
+planner/*.py[cod]
+planner/.pytest_cache/
+planner/.mypy_cache/
+planner/.ruff_cache/
+
+# ==========================================
+# Node (if needed later)
+# ==========================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# Database / Local runtime
+# ==========================================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+logs/
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+tmp/
+temp/
+*.tmp
+
+# ==========================================
+# Build / generated files
+# ==========================================
+
+build/
+dist/
+out/
+
+# ==========================================
+# Docker local overrides
+# ==========================================
+
+docker-compose.override.yml
