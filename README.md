@@ -1,4 +1,3 @@
-```text id="nq2m0p"
 # Safety Guardrails
 
 Penerapan Mekanisme Safety Guardrails dan Verifikasi Otomatis pada Asisten Cerdas untuk Eksekusi Tugas Desktop Jarak Jauh.
